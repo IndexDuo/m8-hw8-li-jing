@@ -37,13 +37,15 @@ header {
 }
 
 /* header link animations! */
-@keyframes color-change {
-    from {
+@keyframes text-color-change {
+    0% {
         color: var(--off-white);
+        border: 1px dotted var(--off-white);
     }
 
-    to {
+    100% {
         color: var(--secondary-color);
+        border: 1px solid var(--secondary-color);
         /* text-decoration: none; */
     }
 }
@@ -51,6 +53,7 @@ header {
 header a {
     font-size: 1.5rem;
     color: var(--off-white);
+    text-decoration: none;
 }
 
 header a:hover {
