@@ -63,6 +63,8 @@ header a:hover {
 main a {
     color: var(--danger-color);
 }
+
+
 /* end article link transitions */
 
 main > article,
