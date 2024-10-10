@@ -40,10 +40,12 @@ header {
 @keyframes color-change {
     from {
         color: var(--off-white);
+        text-decoration: none;
     }
 
     to {
         color: var(--secondary-color);
+        text-decoration: none;
     }
 }
 
