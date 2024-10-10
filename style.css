@@ -39,7 +39,6 @@ header {
 /* header link animations! */
 @keyframes header-link-change {
     from {
-        color: var(--off-white);
         transform: translateY(0);
     }
 
