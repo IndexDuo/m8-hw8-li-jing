@@ -53,7 +53,7 @@ header a {
 }
 
 header a:hover {
-    animation: color-change 0.5s forwards;
+    animation: color-change 0s forwards;
 }
 /* end header link animations */
 
