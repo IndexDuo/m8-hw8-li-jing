@@ -44,7 +44,7 @@ header {
 
     to {
         color: var(--secondary-color);
-        text-decoration: none;
+        /* text-decoration: none; */
     }
 }
 
