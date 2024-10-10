@@ -40,11 +40,11 @@ header {
 @keyframes header-link-change {
     from {
         color: var(--off-white);
-        transform: scale(1);
+        transform: translateY(0);
     }
 
     to {
-        transform: scale(1.1);
+        transform: translateY(-2px);
         text-decoration: underline;
     }
 }
