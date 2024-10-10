@@ -37,14 +37,12 @@ header {
 }
 
 /* header link animations! */
-@keyframes text-color-change {
-    0% {
-        color: var(--off-white);
-        border: 1px dotted var(--off-white);
+@keyframes border-color-change {
+    from {
+        border: 1px solid var(--off-white);
     }
 
-    100% {
-        color: var(--secondary-color);
+    to {
         border: 1px solid var(--secondary-color);
         /* text-decoration: none; */
     }
@@ -57,7 +55,9 @@ header a {
 }
 
 header a:hover {
-    animation: color-change 0s forwards;
+    /* animation: color-change 0s forwards; */
+    animation: border-color-change 0.5s infinite alternate;
+    color: var(--secondary-color);
 }
 /* end header link animations */
 
