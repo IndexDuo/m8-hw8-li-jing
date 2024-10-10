@@ -38,11 +38,11 @@ header {
 
 /* header link animations! */
 @keyframes color-change {
-    0% {
+    from {
         color: var(--off-white);
     }
 
-    100% {
+    to {
         color: var(--secondary-color);
         text-decoration: none;
     }
