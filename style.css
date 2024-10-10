@@ -40,7 +40,7 @@ header {
 @keyframes border-color-change {
     0% {
         /* border: 1px solid var(--off-white); */
-        text-decoration: underline;
+        text-decoration: underline var(--off-white);
     }
 
     100% {
