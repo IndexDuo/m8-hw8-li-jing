@@ -62,9 +62,16 @@ header a:hover {
 /* article link transitions */
 main a {
     color: var(--danger-color);
+    transition:
+        background-color 0.5s,
+        color 0.5s;
 }
 
-
+main a:hover {
+    background-color: var(--danger-color);
+    color: var(--white);
+    text-decoration: none;
+}
 /* end article link transitions */
 
 main > article,
