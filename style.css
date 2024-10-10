@@ -59,6 +59,26 @@ header a:hover {
 }
 /* end header link animations */
 
+/* button animation */
+
+@keyframes button-change {
+    0%,
+    100% {
+        transform: translateY(0);
+        background-color: var(--white);
+    }
+
+    50% {
+        transform: translateY(-2px);
+    }
+}
+
+main section button:hover {
+    animation: button-change 0.5s infinite;
+}
+
+/* end button animation */
+
 /* article link transitions */
 main a {
     color: var(--danger-color);
