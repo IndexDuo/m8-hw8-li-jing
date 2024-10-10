@@ -37,19 +37,16 @@ header {
 }
 
 /* header link animations! */
-@keyframes border-color-change {
-    0% {
-        /* border: 1px solid var(--off-white); */
-        text-decoration: underline var(--off-white);
+@keyframes color-change {
+    from {
+        color: var(--off-white);
+        transform: scale(1);
     }
 
-    50%{
-        
-    }
-
-    100% {
-        /* border: 1px solid var(--secondary-color); */
-        /* text-decoration: none; */
+    to {
+        /* color: var(--secondary-color); */
+        transform: scale(1.1);
+        text-decoration: underline;
     }
 }
 
@@ -60,9 +57,7 @@ header a {
 }
 
 header a:hover {
-    /* animation: color-change 0s forwards; */
-    animation: border-color-change 0.5s 1;
-    color: var(--secondary-color);
+    animation: color-change 0s forwards;
 }
 /* end header link animations */
 
