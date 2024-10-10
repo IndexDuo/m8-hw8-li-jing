@@ -70,7 +70,7 @@ main a {
 main a:hover {
     background-color: var(--danger-color);
     color: var(--white);
-    text-decoration: none;
+    text
 }
 /* end article link transitions */
 
