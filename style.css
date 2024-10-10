@@ -1,13 +1,14 @@
+ /* darkened the colors for better color contrast (accessibility issue per lighthouse) */
 :root {
-    --primary-color: #06b3bc;
+    --primary-color: #089299; /* darkened */ 
     --text-color: #042d2f;
     --text-color-lighter: #074c50;
     --secondary-color: #f78828;
     --warn-color: #fdd219;
-    --danger-color: #fa5456;
+    --danger-color: #B10609; /* darkened */
     --white: #ffffff;
     --off-white: #f1f2f4;
-    --gray: #a1a1a1;
+    --gray: #595959; /* darkened */
 }
 
 body {
